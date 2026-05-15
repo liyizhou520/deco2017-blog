@@ -1,21 +1,41 @@
 ---
-title: From Interface Design to Data Thinking
+title: Finally Starting to Understand the Project
 date: 2026-04-04
 author: YIZHOU LI
-summary: Exploring the discovery phase and learning how to interpret client needs beyond explicit requirements
+summary: Reflection on the early confusion of the course and the first clear direction for our group project.
 tags:
-  - week6
-  - discovery
-  - ideation
+  - project-planning
+  - beginner-coding
+  - teamwork
 ---
-This week introduced the discovery phase as a critical part of the design process. What stood out to me most is the idea that a brief is not simply a checklist of requirements, but a conversation that needs to be interpreted. This shifted how I understand design work, from following instructions to actively uncovering what the client truly values.
+The first few weeks of this course honestly felt overwhelming for me.
 
-One key insight is that both information and experience matter equally. It is not enough to simply provide content; the way that content is experienced plays a major role in whether users engage with a platform. This made me realise that designing a system is not just about organising information, but also about shaping how users feel when interacting with it.
+At the beginning, everything looked manageable. We only needed a laptop, VS Code, GitHub, and some tutorials. But once we started learning more JavaScript and discussing full-stack development, I realised I did not fully understand how all the pieces connected together.
 
-Another important concept from this week is that retention is more valuable than one-time engagement. The lecture emphasised that static pages or purely informational systems are not enough to keep users coming back. Instead, designers need to curate meaningful experiences that encourage repeated interaction. This highlights the importance of thinking beyond functionality and considering long-term user engagement.
+For a while, I kept thinking:
 
-The idea of tailoring experiences to specific communities was also particularly impactful. Generic solutions are unlikely to succeed, especially in community-based platforms. Understanding what a specific group values allows designers to create more relevant and engaging experiences. This reinforced the importance of conducting proper discovery before moving into design.
+> “Am I actually capable of building a real website?”
 
-Although the ideation process was not covered in detail this week, it was framed as a natural continuation of discovery. The quality of ideas depends heavily on how well the problem is understood. This suggests that strong discovery leads to more focused and meaningful design directions.
+Compared with some classmates who already had coding experience, I felt very slow. Sometimes during tutorials, I understood the general idea but could not immediately understand the actual implementation. Small problems in JavaScript could easily turn into hours of debugging.
 
-Overall, this week helped me see design as a process of interpretation rather than execution. Instead of asking “what should I make?”, I am starting to ask “what does the client actually need, even if they haven’t said it directly?”. This shift in mindset will influence how I approach future design work, especially when working on more complex and user-driven systems.
+However, things became clearer after our group started discussing the project direction more seriously.
+
+Our team decided to build a website focused on music sharing and discussion spaces. Users would be able to browse different “Sound Rooms”, enter a room, listen to music, and interact with other users through comments or discussions.
+
+At first the idea sounded simple, but once we started breaking it down, I realised web design is not only about visuals. We needed to think about:
+
+- What pages are required
+- How users move between pages
+- What information should appear
+- What interactions should happen
+- Which parts are essential and which are unnecessary
+
+One important lesson this week was understanding the value of simplicity. Originally I thought a good project needed many complicated features, but now I think clear structure is more important than quantity.
+
+We also reviewed examples of websites and discussed how interfaces guide user behaviour. I started paying more attention to how navigation, layout, and information hierarchy affect the overall experience.
+
+Another challenge was accepting that confusion is part of the learning process. At first I saw confusion as failure, but now I realise it is normal when learning something unfamiliar.
+
+By the end of the week, I still did not feel “confident”, but I finally felt that the project had direction.
+
+That already felt like progress.

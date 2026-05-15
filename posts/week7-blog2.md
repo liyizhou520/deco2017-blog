@@ -1,21 +1,56 @@
 ---
-title: From Structure to Interaction Design
+title: Building Our First Wireframes
 date: 2026-04-11
 author: YIZHOU LI
-summary: Exploring how wireframes, user flows, and functional requirements shape interaction design
+summary: Reflection on creating early wireframes and understanding user flow before development.
 tags:
-  - week7
-  - wireframe
-  - userflow
+  - wireframing
+  - user-flow
+  - prototyping
 ---
-This week focused on translating early ideas into more structured design outputs, particularly through tools such as wireframes, user flow diagrams, and adapted sitemaps. Compared to the discovery phase, this stage feels more concrete, as it begins to define how a system actually works rather than just what it should achieve.
+This week we officially moved from ideas into actual planning and prototyping.
 
-One important concept introduced this week is the idea of functional requirements. Instead of only thinking about visual layout, we are encouraged to ask what users need to do and what the system must support. This shifts the focus from appearance to interaction. For example, a simple feature like joining a discussion or navigating between pages requires a clear understanding of both user actions and system responses.
+Our group began creating the first wireframes for the project. Compared with simply discussing concepts, this felt much more real because we now needed to decide exactly what users would see and how the pages would connect together.
 
-The adapted wireframe was also a key takeaway. Unlike traditional sitemaps that only show hierarchy, adapted wireframes communicate multiple layers of information, including page structure, expected content, and available user actions. This makes them more suitable for complex web applications where interactions are not strictly linear.
+I focused mainly on thinking about the homepage and navigation flow.
 
-User flow diagrams further extend this thinking by mapping how users move through a system. I found it particularly useful that these diagrams highlight decision points and alternative paths, rather than assuming a single “ideal” journey. This reflects how real users behave, making the design more realistic and user-centered.
+Before creating anything in Figma, I spent some time looking at existing music-related websites and community platforms. I was not trying to copy their appearance, but instead trying to understand how their structures worked.
 
-Another interesting point is that not every user flow needs to be complex. Overcomplicating flows can reduce clarity, so the goal is to communicate interactions effectively without unnecessary detail. This helped me understand that simplicity is not about removing functionality, but about presenting it clearly.
+Questions I kept asking included:
 
-Overall, this week emphasised the importance of structure in interaction design. It showed that good design is not just about visual aesthetics, but about clearly defining how users interact with a system. This structured approach will be essential for developing more complex and functional designs in future projects.
+- What is the first thing users notice?
+- How does the homepage guide people forward?
+- What information belongs on the homepage?
+- How do users move into a detailed page?
+- What actions should feel immediate and obvious?
+
+This made me realise that a homepage is not simply decoration. It acts as an entry point into the entire experience.
+
+Once we started sketching wireframes, I noticed how different designing structure feels compared with designing visuals. Even simple boxes and placeholders forced us to think about logic and hierarchy.
+
+For example, our Sound Room cards needed to communicate:
+
+- The room name
+- The music theme
+- Creator information
+- Entry points into the discussion
+
+At first, some layouts looked visually acceptable but became confusing once we imagined actual user behaviour.
+
+This week also helped me understand the importance of user flow diagrams. Before, I thought wireframes were mostly about arranging elements on a page. Now I understand they are also about showing movement and interaction between pages.
+
+We started mapping how users would:
+
+1. Browse Sound Rooms
+2. Enter a room
+3. Read information
+4. Listen to music
+5. Interact with comments or discussions
+
+Even though the wireframes were still very rough, they already exposed many problems.
+
+Some sections felt too crowded, while others lacked clear purpose. Certain buttons existed visually but did not actually help the user move forward.
+
+Instead of trying to make everything perfect immediately, we focused on building a simple but understandable structure first.
+
+That approach made the project feel much more manageable.
