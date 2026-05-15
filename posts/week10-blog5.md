@@ -1,23 +1,62 @@
 ---
-title: Integrating APIs and Thinking About Deployment
+title: Learning APIs and External Data
 date: 2026-05-09
 author: YIZHOU LI
-summary: Reflecting on deployment, API integration, error handling, caching, and secure API key management
+summary: Reflection on using APIs, handling external data, and understanding graceful failure in applications.
 tags:
-  - week10
-  - API
-  - deployment
+  - apis
+  - json
+  - backend
 ---
-This week focused on deployment and external integrations, which helped me understand how a web application connects to the wider internet. Previous weeks focused on structure, data, and internal system design, but this week showed that an application also needs to communicate with external services, handle failure, and be prepared for real users.
+This week introduced APIs and external data handling, which was probably one of the most technically challenging topics so far.
 
-One important concept was deployment. Running a project locally is very different from making it available online. Localhost only works on my own machine, while a deployed application needs hosting, HTTPS, and a reliable environment. This made me realise that deployment is not just the final step of a project, but part of the design and development process.
+Before this tutorial, most of our project existed entirely inside our own system. However, APIs introduced the idea that applications constantly communicate with outside services and external data sources.
 
-The lecture also explained CI/CD, which I had already used indirectly through the blog. When I push a markdown file to GitHub, GitHub Actions automatically builds and publishes the site. This helped me understand continuous deployment as a workflow where changes can be tested and published without doing every step manually.
+At first, the concept felt intimidating because there were many unfamiliar terms:
 
-Another key topic was APIs. An API allows one program to communicate with another program. In the tutorial, the weather API example showed how an application can request external data and then display it to users. For my A2 project, this makes me think about possible music-related integrations, such as pulling album information, artist metadata, or playlist data from an external API. However, this would need to add real value rather than being included just for novelty.
+- JSON
+- Fetch requests
+- API endpoints
+- Authentication
+- Geocoding
+- Caching
+- Error handling
 
-This week also introduced practical concerns around API use. External APIs can fail, return unexpected data, or become unavailable. Because of this, error handling is essential. Instead of allowing the app to crash, the system should fail gracefully and show a useful message to the user. Caching is also important because it reduces repeated API calls, improves performance, and helps avoid rate limits or quotas.
+The tutorial focused heavily on understanding how data moves between systems.
 
-The final important issue was security. API keys and credentials should never be committed to a public repository. They should be stored in a configuration file that is excluded from Git. This is especially important because even deleting a key later does not fully remove it from commit history.
+One important lesson this week was graceful failure.
 
-Overall, Week 10 helped me understand that web applications are not isolated systems. They depend on hosting, external services, network reliability, and secure configuration. Good design therefore includes not only interface and data structure, but also how the application behaves when connected to real services and real users.
+Instead of assuming APIs always work perfectly, we learned that applications should expect failure and respond carefully.
+
+For example:
+
+- The API might return invalid data
+- The request may fail
+- A city name may not exist
+- The server may return an error
+
+Using try/catch blocks made me realise that programming is not only about successful outcomes. Good systems are designed to survive mistakes and unexpected situations.
+
+We also worked with weather APIs and geocoding APIs.
+
+Although the tasks were guided step-by-step, I still found it difficult initially because I needed to understand both JavaScript logic and data structure at the same time.
+
+One important moment for me was understanding JSON responses.
+
+At first, large nested JSON objects looked confusing, but after analysing the structure more carefully, I started recognising patterns and understanding how applications extract specific values from API responses.
+
+The caching section was also interesting because it introduced performance thinking.
+
+Instead of repeatedly calling an API every single time, applications can temporarily store previous results to reduce unnecessary requests and improve speed.
+
+This helped me understand that backend logic is not only about functionality but also efficiency.
+
+Another valuable topic was API security and API keys.
+
+The lecture emphasised that sensitive information should never be directly exposed inside public repositories. This made me more aware of responsible development practices.
+
+Overall, this week shifted my understanding of websites again.
+
+A website is not just a collection of pages anymore. It is a system constantly communicating with servers, APIs, databases, and users simultaneously.
+
+Even though the concepts were difficult, I can now better understand how modern web applications actually operate behind the scenes.
