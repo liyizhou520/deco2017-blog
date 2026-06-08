@@ -6,10 +6,10 @@ author: Yizhou Li
 summary: "A final reflection on the performance, user experience, functional requirements, and development process of our web application prototype."
 tags:
 
-* A3 Reflection
-* Web Prototype
-* Evaluation
-* User Experience
+- A3 Reflection
+- Web Prototype
+- Evaluation
+- User Experience
 
 ---
 
