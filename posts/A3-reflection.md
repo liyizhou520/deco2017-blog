@@ -26,17 +26,17 @@ This reflection evaluates the final prototype through performance, usability, ac
 
 The following screenshots show the final state of the main pages in the prototype.
 
-![Home page final screenshot](../assets/a3-evidence/01-home.png)
+![Home page final screenshot](/deco2017-blog/assets/a3-evidence/01-home.png)
 
-![About page final screenshot](../assets/a3-evidence/02-about.png)
+![About page final screenshot](/deco2017-blog/assets/a3-evidence/02-about.png)
 
-![Browse page final screenshot](../assets/a3-evidence/03-browse.png)
+![Browse page final screenshot](/deco2017-blog/assets/a3-evidence/03-browse.png)
 
-![Community page final screenshot](../assets/a3-evidence/04-community.png)
+![Community page final screenshot](/deco2017-blog/assets/a3-evidence/04-community.png)
 
-![Discover page final screenshot](../assets/a3-evidence/05-discover.png)
+![Discover page final screenshot](/deco2017-blog/assets/a3-evidence/05-discover.png)
 
-![Profile page final screenshot](../assets/a3-evidence/06-profile.png)
+![Profile page final screenshot](/deco2017-blog/assets/a3-evidence/06-profile.png)
 
 ---
 
@@ -54,7 +54,7 @@ Technically, the prototype communicates the intended interaction model, but not 
 
 ## Evidence 2: Lighthouse Audit
 
-![Lighthouse audit for Community page](../assets/a3-evidence/09-lighthouse-community.png)
+![Lighthouse audit for Community page](/deco2017-blog/assets/a3-evidence/09-lighthouse-community.png)
 
 The Lighthouse audit was used as evidence for checking the technical behaviour of the Community page. It helped evaluate performance, accessibility, best practices, and SEO in a more structured way than simply judging the page visually. While Lighthouse does not represent the full user experience, it was useful for identifying whether the page loaded correctly and whether basic technical and accessibility considerations were present.
 
@@ -76,9 +76,9 @@ However, the responsive layout test revealed a significant usability issue. When
 
 ## Evidence 3: Responsive Layout Check
 
-![Responsive Community page screenshot](../assets/a3-evidence/07-responsive-community.png)
+![Responsive Community page screenshot](/deco2017-blog/assets/a3-evidence/07-responsive-community.png)
 
-![Responsive navigation issue screenshot](../assets/a3-evidence/08-responsive-nav-issue.png)
+![Responsive navigation issue screenshot](/deco2017-blog/assets/a3-evidence/08-responsive-nav-issue.png)
 
 These screenshots show the responsive layout test. The main Community content still appeared, but the header navigation became crowded on a narrow screen. This evidence suggests that the prototype needs a dedicated mobile navigation solution, such as a hamburger menu, stacked navigation, or simplified profile/search layout.
 
