@@ -1,13 +1,16 @@
 ---
+
 title: "A3 Reflection: Evaluating the Shen_ren.indie.music Web Prototype"
 date: 2026-06-09
 author: Yizhou Li
 summary: "A final reflection on the performance, user experience, functional requirements, and development process of our web application prototype."
 tags:
-  - A3 Reflection
-  - Web Prototype
-  - Evaluation
-  - User Experience
+
+* A3 Reflection
+* Web Prototype
+* Evaluation
+* User Experience
+
 ---
 
 # A3 Reflection: Evaluating the Shen_ren.indie.music Web Prototype
@@ -26,17 +29,17 @@ This reflection evaluates the final prototype through performance, usability, ac
 
 The following screenshots show the final state of the main pages in the prototype.
 
-![Home page final screenshot](/deco2017-blog/assets/a3-evidence/01-home.png)
+<img src="/deco2017-blog/assets/a3-evidence/01-home.png" alt="Home page final screenshot" width="700">
 
-![About page final screenshot](/deco2017-blog/assets/a3-evidence/02-about.png)
+<img src="/deco2017-blog/assets/a3-evidence/02-about.png" alt="About page final screenshot" width="700">
 
-![Browse page final screenshot](/deco2017-blog/assets/a3-evidence/03-browse.png)
+<img src="/deco2017-blog/assets/a3-evidence/03-browse.png" alt="Browse page final screenshot" width="700">
 
-![Community page final screenshot](/deco2017-blog/assets/a3-evidence/04-community.png)
+<img src="/deco2017-blog/assets/a3-evidence/04-community.png" alt="Community page final screenshot" width="700">
 
-![Discover page final screenshot](/deco2017-blog/assets/a3-evidence/05-discover.png)
+<img src="/deco2017-blog/assets/a3-evidence/05-discover.png" alt="Discover page final screenshot" width="700">
 
-![Profile page final screenshot](/deco2017-blog/assets/a3-evidence/06-profile.png)
+<img src="/deco2017-blog/assets/a3-evidence/06-profile.png" alt="Profile page final screenshot" width="700">
 
 ---
 
@@ -54,7 +57,7 @@ Technically, the prototype communicates the intended interaction model, but not 
 
 ## Evidence 2: Lighthouse Audit
 
-![Lighthouse audit for Community page](/deco2017-blog/assets/a3-evidence/09-lighthouse-community.png)
+<img src="/deco2017-blog/assets/a3-evidence/09-lighthouse-community.png" alt="Lighthouse audit for Community page" width="700">
 
 The Lighthouse audit was used as evidence for checking the technical behaviour of the Community page. It helped evaluate performance, accessibility, best practices, and SEO in a more structured way than simply judging the page visually. While Lighthouse does not represent the full user experience, it was useful for identifying whether the page loaded correctly and whether basic technical and accessibility considerations were present.
 
@@ -76,9 +79,9 @@ However, the responsive layout test revealed a significant usability issue. When
 
 ## Evidence 3: Responsive Layout Check
 
-![Responsive Community page screenshot](/deco2017-blog/assets/a3-evidence/07-responsive-community.png)
+<img src="/deco2017-blog/assets/a3-evidence/07-responsive-community.png" alt="Responsive Community page screenshot" width="700">
 
-![Responsive navigation issue screenshot](/deco2017-blog/assets/a3-evidence/08-responsive-nav-issue.png)
+<img src="/deco2017-blog/assets/a3-evidence/08-responsive-nav-issue.png" alt="Responsive navigation issue screenshot" width="700">
 
 These screenshots show the responsive layout test. The main Community content still appeared, but the header navigation became crowded on a narrow screen. This evidence suggests that the prototype needs a dedicated mobile navigation solution, such as a hamburger menu, stacked navigation, or simplified profile/search layout.
 
