@@ -1,16 +1,13 @@
 ---
-
-title: A3 Reflection: Evaluating the Shen_ren.indie.music Web Prototype
+title: "A3 Reflection: Evaluating the Shen_ren.indie.music Web Prototype"
 date: 2026-06-09
 author: Yizhou Li
-summary: A final reflection on the performance, user experience, functional requirements, and development process of our web application prototype.
+summary: "A final reflection on the performance, user experience, functional requirements, and development process of our web application prototype."
 tags:
-
-* A3 Reflection
-* Web Prototype
-* Evaluation
-* User Experience
-
+  - A3 Reflection
+  - Web Prototype
+  - Evaluation
+  - User Experience
 ---
 
 # A3 Reflection: Evaluating the Shen_ren.indie.music Web Prototype
